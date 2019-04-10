@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".view.SongDetailsActivity">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/artistImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        />
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/songName"
+        android:layout_below="@+id/card"
+        android:text="Michale Jackson"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/artistName"
+        android:layout_below="@+id/songName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Michale Jackson"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:id="@+id/collectionName"
+        android:layout_below="@+id/artistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Michale Jackson"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:id="@+id/releaseDate"
+        android:layout_below="@+id/collectionName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Michale Jackson"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:id="@+id/GenreName"
+        android:layout_below="@+id/releaseDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Michale Jackson"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:id="@+id/countryName"
+        android:layout_below="@+id/GenreName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Michale Jackson"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"/>
+
+</RelativeLayout>
